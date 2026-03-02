@@ -1,5 +1,5 @@
 # 换汇路由配置表
-> 最后更新时间：2026-02-28 17:46:30
+> 最后更新时间：2026-03-02 09:32:57
 
 | 卖出币种 | 买入币种 | 换汇策略规则 | 独立换汇状态 | 配置状态 | 最后修改时间 |
 |----------|----------|--------------|--------------|----------|--------------|
@@ -64,7 +64,7 @@
 | EUR | PLN | RULE_CC | ENABLED | ENABLED | 2026-01-13T07:51:02Z |
 | EUR | RON | RULE_CC | ENABLED | ENABLED | 2026-01-13T07:51:02Z |
 | EUR | USD | RULE_CC | ENABLED | ENABLED | 2026-01-13T07:51:02Z |
-| GBP | CNH | RULE_PP | ENABLED | ENABLED | 2026-02-28T07:42:11Z |
+| GBP | CNH | RULE_CC | ENABLED | ENABLED | 2026-03-02T01:32:57Z |
 | HKD | CNH | RULE_CC | ENABLED | ENABLED | 2026-01-13T07:51:02Z |
 | HUF | CNH | RULE_CC | ENABLED | ENABLED | 2026-01-13T07:51:02Z |
 | HUF | EUR | RULE_CC | ENABLED | ENABLED | 2026-01-13T07:51:02Z |
