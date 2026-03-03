@@ -1,9 +1,9 @@
 # ========== 超限提醒配置（核心） ==========
 # 1. 企业微信机器人Webhook
-WECHAT_WEBHOOK_URL = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=4c15eb09-0b7d-4ca7-b378-ae169ddc4917"
+WECHAT_WEBHOOK_URL = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=85c09e71-c20c-433e-b663-58f3b392c2d0"
 # 2. 超限阈值配置
 ALERT_THRESHOLDS = {
-    "USD/CNH": 500000.0,
+    "USD/CNH": 800000.0,
     "EUR/CNH": 50000.0,
     "GBP/CNH": 30000.0
 }
