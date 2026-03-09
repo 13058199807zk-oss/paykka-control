@@ -1,3 +1,26 @@
+<script>
+    // 设置密码
+    const correctPassword = "paykka-settlement";
+    
+    // 检查是否已输入密码
+    if(!sessionStorage.getItem('authenticated')) {
+        const inputPassword = prompt('请输入访问密码：');
+        
+        if(inputPassword !== correctPassword) {
+            document.body.innerHTML = `
+                <div style="display: flex; justify-content: center; align-items: center; height: 100vh; background: #f5f5f5;">
+                    <div style="text-align: center; padding: 40px; background: white; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                        <h2 style="color: #e74c3c;">访问被拒绝</h2>
+                        <p>密码错误，请刷新页面重试。</p>
+                    </div>
+                </div>
+            `;
+        } else {
+            sessionStorage.setItem('authenticated', 'true');
+        }
+    }
+</script>
+
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
