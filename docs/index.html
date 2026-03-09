@@ -1,204 +1,319 @@
-
-    <!DOCTYPE html>
-    <html lang="zh-CN">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>PayKKa 机构余额看板</title>
-        <style>
-            body { font-family: 'Segoe UI', Arial, sans-serif; margin: 40px; background-color: #f5f5f5; color: #333; }
-            .container { max-width: 1200px; margin: auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
-            h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 15px; }
-            .update-time { color: #7f8c8d; font-size: 0.95em; margin-bottom: 30px; }
-            .institution { margin-bottom: 35px; }
-            .institution h2 { color: #16a085; background-color: #ecf0f1; padding: 12px 20px; border-radius: 8px; }
-            table { width: 100%; border-collapse: collapse; margin-top: 15px; }
-            th, td { padding: 15px 20px; text-align: left; border-bottom: 1px solid #ddd; }
-            th { background-color: #3498db; color: white; font-weight: 600; }
-            tr:hover { background-color: #f9f9f9; }
-            .balance { font-family: 'Courier New', monospace; font-weight: bold; color: #27ae60; }
-            .footer { margin-top: 40px; text-align: center; font-size: 0.9em; color: #95a5a6; }
-            .alert { background-color: #fff3cd; border: 1px solid #ffeaa7; padding: 15px; border-radius: 8px; margin-top: 20px; }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <h1>🏦 PayKKa 渠道机构资金余额看板</h1>
-            <div class="update-time">最后更新时间: <strong>2026-03-06 15:19:18</strong> (北京时间)</div>
-            <div class="alert">
-                说明：本页面数据通过自动化脚本定时更新，展示各机构资金账户的实时余额。
-            </div>
-    
-            <div class="institution">
-                <h2>📊 易宝</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>币种</th>
-                            <th>余额</th>
-                        </tr>
-                    </thead>
-                    <tbody>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>汇率优惠空间一览</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+        }
         
-                        <tr>
-                            <td><strong>USD</strong></td>
-                            <td class="balance">4,202,868.07</td>
-                        </tr>
-            
-                        <tr>
-                            <td><strong>CNH</strong></td>
-                            <td class="balance">14,958,886.59</td>
-                        </tr>
-            
-                        <tr>
-                            <td><strong>HKD</strong></td>
-                            <td class="balance">5,369,498.63</td>
-                        </tr>
-            
-                        <tr>
-                            <td><strong>EUR</strong></td>
-                            <td class="balance">675,742.27</td>
-                        </tr>
-            
-                        <tr>
-                            <td><strong>GBP</strong></td>
-                            <td class="balance">17,058.39</td>
-                        </tr>
-            
-                        <tr>
-                            <td><strong>JPY</strong></td>
-                            <td class="balance">38,233.00</td>
-                        </tr>
-            
-                        <tr>
-                            <td><strong>AUD</strong></td>
-                            <td class="balance">30,556.45</td>
-                        </tr>
-            
-                        <tr>
-                            <td><strong>CAD</strong></td>
-                            <td class="balance">61.91</td>
-                        </tr>
-            
-                        <tr>
-                            <td><strong>SGD</strong></td>
-                            <td class="balance">82,740.77</td>
-                        </tr>
-            
-                    </tbody>
-                </table>
-            </div>
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
         
-            <div class="institution">
-                <h2>📊 Currencycloud</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>币种</th>
-                            <th>余额</th>
-                        </tr>
-                    </thead>
-                    <tbody>
+        .container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            padding: 30px;
+            margin-top: 20px;
+        }
         
-                        <tr>
-                            <td><strong>USD</strong></td>
-                            <td class="balance">1,958,074.00</td>
-                        </tr>
-            
-                        <tr>
-                            <td><strong>CNY</strong></td>
-                            <td class="balance">584,654.54</td>
-                        </tr>
-            
-                        <tr>
-                            <td><strong>HKD</strong></td>
-                            <td class="balance">983,472.87</td>
-                        </tr>
-            
-                        <tr>
-                            <td><strong>EUR</strong></td>
-                            <td class="balance">119,151.42</td>
-                        </tr>
-            
-                        <tr>
-                            <td><strong>GBP</strong></td>
-                            <td class="balance">394,183.79</td>
-                        </tr>
-            
-                        <tr>
-                            <td><strong>JPY</strong></td>
-                            <td class="balance">9,009,816.00</td>
-                        </tr>
-            
-                        <tr>
-                            <td><strong>AUD</strong></td>
-                            <td class="balance">1,705,469.78</td>
-                        </tr>
-            
-                        <tr>
-                            <td><strong>CAD</strong></td>
-                            <td class="balance">86,120.79</td>
-                        </tr>
-            
-                        <tr>
-                            <td><strong>SGD</strong></td>
-                            <td class="balance">19,343.23</td>
-                        </tr>
-            
-                        <tr>
-                            <td><strong>HUF</strong></td>
-                            <td class="balance">5,237,509.00</td>
-                        </tr>
-            
-                        <tr>
-                            <td><strong>RON</strong></td>
-                            <td class="balance">391,321.36</td>
-                        </tr>
-            
-                        <tr>
-                            <td><strong>CZK</strong></td>
-                            <td class="balance">7,750,653.97</td>
-                        </tr>
-            
-                        <tr>
-                            <td><strong>PLN</strong></td>
-                            <td class="balance">355,269.56</td>
-                        </tr>
-            
-                    </tbody>
-                </table>
-            </div>
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eaeaea;
+        }
         
-            <div class="institution">
-                <h2>📊 海云汇</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>币种</th>
-                            <th>余额</th>
-                        </tr>
-                    </thead>
-                    <tbody>
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+        }
         
-                        <tr>
-                            <td><strong>HKD</strong></td>
-                            <td class="balance">9,218.45</td>
-                        </tr>
-            
-                        <tr>
-                            <td><strong>EUR</strong></td>
-                            <td class="balance">2.34</td>
-                        </tr>
-            
-                    </tbody>
-                </table>
-            </div>
+        .update-time {
+            color: #666;
+            font-size: 16px;
+            font-weight: normal;
+        }
         
-            <div class="footer">
-                <p>数据来源: PayKKa 运营平台 | 本页面由自动化工具生成，更新间隔可配置</p>
-                <p>仓库: 13058199807zk-oss/paykka-control | 如有疑问，请联系相关运维人员。</p>
-            </div>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 16px;
+            text-align: left;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+            border-radius: 6px;
+            overflow: hidden;
+        }
+        
+        table thead tr {
+            background-color: #2c3e50;
+            color: white;
+            text-align: left;
+            font-weight: bold;
+        }
+        
+        table th, table td {
+            padding: 16px 20px;
+            border-right: 1px solid #e0e0e0;
+        }
+        
+        table th:last-child, table td:last-child {
+            border-right: none;
+        }
+        
+        table th {
+            font-weight: 600;
+        }
+        
+        table tbody tr {
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        table tbody tr:nth-of-type(even) {
+            background-color: #f9f9f9;
+        }
+        
+        table tbody tr:last-of-type {
+            border-bottom: 2px solid #2c3e50;
+        }
+        
+        .currency-pair {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .discount-bp {
+            color: #27ae60;
+            font-weight: 600;
+        }
+        
+        .discount-percent {
+            color: #2980b9;
+            font-weight: 600;
+        }
+        
+        .footer {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 6px;
+            border-left: 4px solid #3498db;
+            font-size: 15px;
+            color: #555;
+        }
+        
+        .footer strong {
+            color: #2c3e50;
+        }
+        
+        .github-info {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f5f5f5;
+            border-radius: 6px;
+            font-size: 14px;
+            color: #666;
+            border-left: 4px solid #333;
+        }
+        
+        .github-info a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        
+        .github-info a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 20px 15px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+            
+            table {
+                font-size: 14px;
+            }
+            
+            table th, table td {
+                padding: 12px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>汇率优惠空间一览</h1>
+            <div class="update-time">最后更新时间：2026-03-09</div>
         </div>
-    </body>
-    </html>
-    
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>卖出币种</th>
+                    <th>买入币种</th>
+                    <th>优惠空间</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="currency-pair">USD</td>
+                    <td class="currency-pair">CNH</td>
+                    <td class="discount-bp">89BP</td>
+                </tr>
+                <tr>
+                    <td class="currency-pair">EUR</td>
+                    <td class="currency-pair">CNH</td>
+                    <td class="discount-bp">201BP</td>
+                </tr>
+                <tr>
+                    <td class="currency-pair">HKD</td>
+                    <td class="currency-pair">CNH</td>
+                    <td class="discount-percent">0.067%</td>
+                </tr>
+                <tr>
+                    <td class="currency-pair">GBP</td>
+                    <td class="currency-pair">CNH</td>
+                    <td class="discount-bp">208BP</td>
+                </tr>
+                <tr>
+                    <td class="currency-pair">AUD</td>
+                    <td class="currency-pair">CNH</td>
+                    <td class="discount-bp">123BP</td>
+                </tr>
+                <tr>
+                    <td class="currency-pair">SGD</td>
+                    <td class="currency-pair">CNH</td>
+                    <td class="discount-bp">148BP</td>
+                </tr>
+                <tr>
+                    <td class="currency-pair">CAD</td>
+                    <td class="currency-pair">CNH</td>
+                    <td class="discount-bp">129BP</td>
+                </tr>
+                <tr>
+                    <td class="currency-pair">NZD</td>
+                    <td class="currency-pair">CNH</td>
+                    <td class="discount-bp">105BP</td>
+                </tr>
+                <tr>
+                    <td class="currency-pair">JPY</td>
+                    <td class="currency-pair">CNH</td>
+                    <td class="discount-percent">0.276%</td>
+                </tr>
+                <tr>
+                    <td class="currency-pair">VND</td>
+                    <td class="currency-pair">CNH</td>
+                    <td class="discount-percent">0.029%</td>
+                </tr>
+                <tr>
+                    <td class="currency-pair">IDR</td>
+                    <td class="currency-pair">CNH</td>
+                    <td class="discount-percent">0.714%</td>
+                </tr>
+                <tr>
+                    <td class="currency-pair">MYR</td>
+                    <td class="currency-pair">CNH</td>
+                    <td class="discount-percent">0.047%</td>
+                </tr>
+                <tr>
+                    <td class="currency-pair">PHP</td>
+                    <td class="currency-pair">CNH</td>
+                    <td class="discount-percent">0.494%</td>
+                </tr>
+                <tr>
+                    <td class="currency-pair">THB</td>
+                    <td class="currency-pair">CNH</td>
+                    <td class="discount-percent">0.047%</td>
+                </tr>
+                <tr>
+                    <td class="currency-pair">RON</td>
+                    <td class="currency-pair">CNH</td>
+                    <td class="discount-percent">0.135%</td>
+                </tr>
+                <tr>
+                    <td class="currency-pair">PLN</td>
+                    <td class="currency-pair">CNH</td>
+                    <td class="discount-percent">0.135%</td>
+                </tr>
+                <tr>
+                    <td class="currency-pair">HUF</td>
+                    <td class="currency-pair">CNH</td>
+                    <td class="discount-percent">0.774%</td>
+                </tr>
+                <tr>
+                    <td class="currency-pair">NGN</td>
+                    <td class="currency-pair">USD</td>
+                    <td class="discount-percent">0.129%</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="footer">
+            <p><strong>说明：</strong>未显示货币对优惠空间统一为0.1%</p>
+        </div>
+        
+        <div class="github-info">
+            <p><strong>GitHub部署说明：</strong>此HTML文件已包含完整样式，可以直接在GitHub Pages上展示。您只需：</p>
+            <ol>
+                <li>将此文件保存为<code>index.html</code></li>
+                <li>上传到GitHub仓库</li>
+                <li>在仓库设置中启用GitHub Pages功能</li>
+                <li>访问生成的链接即可查看此页面</li>
+            </ol>
+            <p>了解更多：<a href="https://pages.github.com/" target="_blank">GitHub Pages官方文档</a></p>
+        </div>
+    </div>
+
+    <script>
+        // 添加简单的交互效果
+        document.addEventListener('DOMContentLoaded', function() {
+            const tableRows = document.querySelectorAll('table tbody tr');
+            
+            tableRows.forEach(row => {
+                row.addEventListener('mouseenter', function() {
+                    this.style.backgroundColor = '#f0f7ff';
+                });
+                
+                row.addEventListener('mouseleave', function() {
+                    // 恢复原来的背景色
+                    if (Array.from(tableRows).indexOf(this) % 2 === 1) {
+                        this.style.backgroundColor = '#f9f9f9';
+                    } else {
+                        this.style.backgroundColor = '';
+                    }
+                });
+            });
+            
+            // 更新时间动态显示
+            const updateTimeElement = document.querySelector('.update-time');
+            const now = new Date();
+            const formattedDate = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+            updateTimeElement.textContent = `最后更新时间：${formattedDate}`;
+        });
+    </script>
+</body>
+</html>
