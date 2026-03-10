@@ -14,4 +14,4 @@ TRADING_HOURS = {
 }
 # 未配置的机构默认24小时交易
 # 4. 提醒开关
-ENABLE_WECHAT_ALERT = True
+ENABLE_WECHAT_ALERT = False
