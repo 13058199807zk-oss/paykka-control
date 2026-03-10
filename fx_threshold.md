@@ -7,10 +7,11 @@ ALERT_THRESHOLDS = {
     "EUR/CNH": 50000.0,
     "GBP/CNH": 30000.0
 }
+# 3. T+0交易时段配置
 TRADING_HOURS = {
     "OCBC": {"start": "08:00", "end": "15:00"},
     "YB": {"start": "00:00", "end": "23:59"}
     # 未配置的机构默认24小时交易
 }
-# 3. 提醒开关
+# 4. 提醒开关
 ENABLE_WECHAT_ALERT = True
