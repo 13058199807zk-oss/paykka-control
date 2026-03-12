@@ -12,6 +12,6 @@ TRADING_HOURS = {
     "OCBC": {"start": "08:00", "end": "15:00"},
     "YB": {"start": "00:00", "end": "23:59"}
 }
-# 未配置的机构默认24小时交易
+未配置的机构默认24小时交易
 # 4. 提醒开关
 ENABLE_WECHAT_ALERT = True
