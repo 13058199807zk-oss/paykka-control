@@ -1,28 +1,11 @@
 # 路由定时切换配置
 
-## 功能开关
-> ENABLED = True
-> NOTIFICATION = True  # 切换后是否发送通知
+# 功能开关
+ENABLED = True
+NOTIFICATION = True  # 切换后是否发送通知
 
-## 时间表配置
- > 配置格式说明
-
- > id: 唯一标识符
-
- > description: 描述
-
- > currency_pair: 货币对 {sell: 卖出币种, buy: 买入币种}
-
- > target_rule: 目标路由规则
-
- > time: 切换时间 (24小时制 HH:MM)
-
- > days: 生效日期 [MON,TUE,WED,THU,FRI,SAT,SUN]
-
- > enabled: 是否启用|
-
-
-SCHEDULES = {
+# 时间表配置
+SCHEDULES = [
     {
         "id": "morning_switch",
         "description": "工作日早上切换到OCBC",
@@ -73,14 +56,12 @@ SCHEDULES = {
         "enabled": True,
         "send_notification": True
     }
-}
+]
 
-## 支持的规则列表
-> RULE_OCBC
-
-> RULE_HCE_TOM
-
-> RULE_YB
-
-> RULE_FX_TOM
-
+# 支持的规则列表
+SUPPORTED_RULES = [
+    "RULE_OCBC",
+    "RULE_HCE_TOM", 
+    "RULE_YB",
+    "RULE_FX_TOM"
+]
