@@ -5,7 +5,7 @@ ENABLED = True
 NOTIFICATION = True  # 切换后是否发送通知
 
 # 时间表配置
-SCHEDULES = {
+SCHEDULES = [
     {
         "id": "morning_switch",
         "description": "工作日早上切换到OCBC",
@@ -56,7 +56,7 @@ SCHEDULES = {
         "enabled": True,
         "send_notification": True
     }
-}
+]
 
 # 支持的规则列表
 SUPPORTED_RULES = [
