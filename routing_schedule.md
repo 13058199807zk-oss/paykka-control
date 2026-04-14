@@ -5,14 +5,14 @@ ENABLED = True
 NOTIFICATION = True  # 切换后是否发送通知
 
 ## 时间表配置
- 配置格式说明:
-   id: 唯一标识符
-   description: 描述
-   currency_pair: 货币对 {sell: 卖出币种, buy: 买入币种}
-   target_rule: 目标路由规则
-   time: 切换时间 (24小时制 HH:MM)
-   days: 生效日期 [MON,TUE,WED,THU,FRI,SAT,SUN]
-   enabled: 是否启用
+ |配置格式说明:
+   |id: 唯一标识符
+   |description: 描述
+   |currency_pair: 货币对 {sell: 卖出币种, buy: 买入币种}
+   |target_rule: 目标路由规则
+   |time: 切换时间 (24小时制 HH:MM)
+   |days: 生效日期 [MON,TUE,WED,THU,FRI,SAT,SUN]
+   |enabled: 是否启用
 
 SCHEDULES = [
     {
