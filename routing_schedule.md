@@ -22,7 +22,7 @@
  > enabled: 是否启用|
 
 
-SCHEDULES = [
+SCHEDULES = {
     {
         "id": "morning_switch",
         "description": "工作日早上切换到OCBC",
@@ -73,7 +73,7 @@ SCHEDULES = [
         "enabled": True,
         "send_notification": True
     }
-]
+}
 
 ## 支持的规则列表
 > RULE_OCBC
