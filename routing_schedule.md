@@ -10,8 +10,8 @@ SCHEDULES = [
         "id": "morning_switch",
         "description": "工作日早上切换到OCBC",
         "currency_pair": {"sell": "USD", "buy": "CNH"},
-        "target_rule": "RULE_OCBC",
-        "time": "08:05",
+        "target_rule": "RULE_PAYKKA",
+        "time": "07:55",
         "days": ["MON", "TUE", "WED", "THU", "FRI"],
         "enabled": True,
         "send_notification": True
