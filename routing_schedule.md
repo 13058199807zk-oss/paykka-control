@@ -1,7 +1,7 @@
 # 路由定时切换配置
 
 # 功能开关
-ENABLED = False
+ENABLED = True
 NOTIFICATION = True  # 切换后是否发送通知
 
 # 时间表配置
@@ -11,7 +11,7 @@ SCHEDULES = [
         "description": "工作日早上切换到OCBC",
         "currency_pair": {"sell": "USD", "buy": "CNH"},
         "target_rule": "RULE_OCBC",
-        "time": "11:02",
+        "time": "11:05",
         "days": ["MON", "TUE", "WED", "THU", "FRI"],
         "enabled": True,
         "send_notification": True
