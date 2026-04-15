@@ -1,7 +1,7 @@
 # 路由定时切换配置
 
 # 功能开关
-ENABLED = True
+ENABLED = False
 NOTIFICATION = True  # 切换后是否发送通知
 
 # 时间表配置
