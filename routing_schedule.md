@@ -11,7 +11,7 @@ SCHEDULES = [
         "description": "工作日早上切换到OCBC",
         "currency_pair": {"sell": "USD", "buy": "CNH"},
         "target_rule": "RULE_OCBC",
-        "time": "09:35",
+        "time": "08:05",
         "days": ["MON", "TUE", "WED", "THU", "FRI"],
         "enabled": True,
         "send_notification": True
