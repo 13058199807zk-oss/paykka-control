@@ -1,3 +1,4 @@
+```json
 # 路由定时切换配置  
   
 # 功能开关  
@@ -16,8 +17,8 @@ SCHEDULES = [
         "enabled": True,  
         "send_notification": True  
     },  
-    {
-        "id": "afternoon_switch",
+    {  
+        "id": "afternoon_switch",  
         "description": "工作日下午切换到HCE_TOM",
         "currency_pair": {"sell": "USD", "buy": "CNH"},
         "target_rule": "RULE_HCE_TOM",
