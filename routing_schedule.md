@@ -23,7 +23,7 @@ SCHEDULES =
         "description": "工作日下午切换到HCE_TOM",
         "currency_pair": {"sell": "USD", "buy": "CNH"},
         "target_rule": "RULE_HCE_TOM",
-        "time": "15:15",
+        "time": "14:55",
         "days": ["MON", "TUE", "WED", "THU", "FRI"],
         "enabled": True,
         "send_notification": True
