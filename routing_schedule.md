@@ -9,8 +9,8 @@ NOTIFICATION = True  # 切换后是否发送通知
 SCHEDULES = 
 [
     {
-        "id": "morning_switch",
-        "description": "工作日早上切换到OCBC",
+        "id": "morning_switch_USD",
+        "description": "USD工作日早上切换到OCBC",
         "currency_pair": {"sell": "USD", "buy": "CNH"},
         "target_rule": "RULE_OCBC",
         "time": "08:05",
@@ -19,8 +19,8 @@ SCHEDULES =
         "send_notification": True
     },
     {
-        "id": "afternoon_switch",
-        "description": "工作日下午切换到HCE_TOM",
+        "id": "afternoon_switch_USD",
+        "description": "USD工作日下午切换到HCE_TOM",
         "currency_pair": {"sell": "USD", "buy": "CNH"},
         "target_rule": "RULE_HCE_TOM",
         "time": "14:55",
@@ -29,8 +29,8 @@ SCHEDULES =
         "send_notification": True
     },
     {
-        "id": "midnight_switch",
-        "description": "工作日凌晨切换到YB",
+        "id": "midnight_switch_USD",
+        "description": "USD工作日凌晨切换到YB",
         "currency_pair": {"sell": "USD", "buy": "CNH"},
         "target_rule": "RULE_YB",
         "time": "23:50",
@@ -39,8 +39,8 @@ SCHEDULES =
         "send_notification": True
     },
     {
-        "id": "friday_night_switch",
-        "description": "周五晚上切换到YB",
+        "id": "friday_night_switch_USD",
+        "description": "USD周五晚上切换到YB",
         "currency_pair": {"sell": "USD", "buy": "CNH"},
         "target_rule": "RULE_YB",
         "time": "22:30",
@@ -49,13 +49,43 @@ SCHEDULES =
         "send_notification": True
     },
     {
-        "id": "sunday_night_switch",
-        "description": "周日晚上切换到CC",
-        "currency_pair": {"sell": "GBP", "buy": "CNH"},
+        "id": "friday_night_switch_HKD",
+        "description": "HKD周五晚上切换到YB",
+        "currency_pair": {"sell": "HKD", "buy": "CNH"},
+        "target_rule": "RULE_YB",
+        "time": "22:30",
+        "days": ["FRI"],
+        "enabled": True,
+        "send_notification": True
+    },
+    {
+        "id": "monday_morning_switch_HKD",
+        "description": "HKD周一早上切换到MDAQ",
+        "currency_pair": {"sell": "HKD", "buy": "CNH"},
+        "target_rule": "RULE_FX_SPOT",
+        "time": "09:05",
+        "days": ["MON"],
+        "enabled": True,
+        "send_notification": True
+    },
+    {
+        "id": "friday_night_switch_AUD",
+        "description": "AUD周五晚上切换到YB",
+        "currency_pair": {"sell": "AUD", "buy": "CNH"},
+        "target_rule": "RULE_YB",
+        "time": "22:30",
+        "days": ["FRI"],
+        "enabled": True,
+        "send_notification": True
+    },
+    {
+        "id": "monday_morning_switch_AUD",
+        "description": "AUD周一早上切换到CC",
+        "currency_pair": {"sell": "AUD", "buy": "CNH"},
         "target_rule": "RULE_CC",
-        "time": "23:50",
-        "days": ["SUN"],
-        "enabled": False,
+        "time": "09:05",
+        "days": ["MON"],
+        "enabled": True,
         "send_notification": True
     }
 ]
@@ -64,6 +94,9 @@ SCHEDULES =
 SUPPORTED_RULES = [
     "RULE_OCBC",
     "RULE_HCE_TOM", 
+    "RULE_HCE_SPOT", 
     "RULE_YB",
-    "RULE_FX_TOM"
+    "RULE_CC",
+    "RULE_FX_TOM",
+    "RULE_FX_SPOT"
 ]
