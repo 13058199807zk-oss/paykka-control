@@ -60,9 +60,9 @@ SCHEDULES =
     },
     {
         "id": "monday_morning_switch_HKD",
-        "description": "HKD周一早上切换到MDAQ",
+        "description": "HKD周一早上切换到HCE",
         "currency_pair": {"sell": "HKD", "buy": "CNH"},
-        "target_rule": "RULE_FX_SPOT",
+        "target_rule": "RULE_HCE_TOM",
         "time": "09:05",
         "days": ["MON"],
         "enabled": True,
