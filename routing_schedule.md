@@ -87,6 +87,26 @@ SCHEDULES =
         "days": ["MON"],
         "enabled": True,
         "send_notification": True
+    },
+    {
+        "id": "friday_night_switch_EUR",
+        "description": "EUR周五晚上切换到YB",
+        "currency_pair": {"sell": "EUR", "buy": "CNH"},
+        "target_rule": "RULE_YB",
+        "time": "22:30",
+        "days": ["FRI"],
+        "enabled": True,
+        "send_notification": True
+    },
+    {
+        "id": "monday_morning_switch_EUR",
+        "description": "EUR周一早上切换到MDAQ",
+        "currency_pair": {"sell": "EUR", "buy": "CNH"},
+        "target_rule": "RULE_FX_TOM",
+        "time": "09:05",
+        "days": ["MON"],
+        "enabled": True,
+        "send_notification": True
     }
 ]
 ```
