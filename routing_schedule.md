@@ -25,7 +25,7 @@ SCHEDULES =
         "target_rule": "RULE_OCBC",
         "time": "08:05",
         "days": ["MON", "TUE", "WED", "THU", "FRI"],
-        "enabled": True,
+        "enabled": False,
         "send_notification": True
     },
     {
@@ -45,7 +45,7 @@ SCHEDULES =
         "target_rule": "RULE_YB",
         "time": "15:25",
         "days": ["MON", "TUE", "WED", "THU", "FRI"],
-        "enabled": True,
+        "enabled": False,
         "send_notification": True
     },
     {
