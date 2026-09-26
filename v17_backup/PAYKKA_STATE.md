@@ -135,15 +135,15 @@ getWithSource: /api/v1/spotfx/graph/present-rate/v2/getWithSource
 ## 七、配置文件速查
 
 ### 飞书Bot
-LARK_APP_ID = "<见 paykka_config.py>"
-LARK_APP_SECRET = "<见 paykka_config.py>"
+LARK_APP_ID = "cli_a92121fea1f85bc9"
+LARK_APP_SECRET = "<见 paykka_config.py / .env>"
 
 ### GitHub
-GITHUB_TOKEN = "<见 paykka_config.py>"
+GITHUB_TOKEN = "<见 .env>"
 GITHUB_REPO_NAME = "13058199807zk-oss/paykka-control"
 
 ### 企业微信Webhook
-WECHAT_WEBHOOK_URL = "<见 paykka_config.py>"
+WECHAT_WEBHOOK_URL = "<见 .env>"
 
 ### OPS API
 BALANCE_BASE_URL = "https://ops-bk.cb.paykka.com"
