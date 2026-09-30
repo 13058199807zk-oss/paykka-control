@@ -1,4 +1,34 @@
 {
+  "★_阅读说明": "本文件含【全部 27 个卖出币种 / 99 币对】（平日报价方案），是日常基准。改值只改 items[].cost.value 与 items[].configs[].value；不要增删币对、不要改 buy_cur、不要改键名。定位每一块：搜索 ★_卖出币种（全文共 27 处）。",
+  "★_包含卖出币种": [
+    "GHS",
+    "ZAR",
+    "AED",
+    "CHF",
+    "NOK",
+    "DKK",
+    "SEK",
+    "NZD",
+    "NGN",
+    "VND",
+    "HUF",
+    "PLN",
+    "CZK",
+    "RON",
+    "MYR",
+    "IDR",
+    "THB",
+    "PHP",
+    "CNH",
+    "SGD",
+    "JPY",
+    "CAD",
+    "AUD",
+    "GBP",
+    "HKD",
+    "EUR",
+    "USD"
+  ],
   "name": "平日报价方案",
   "aliases": [
     "平日",
@@ -7,10 +37,11 @@
     "weekday"
   ],
   "note": "基准方案：取自 2026-09-30 线上汇差配置（27 卖出币种 / 99 币对）。切换此方案应显示「完全一致、无需提交」。",
-  "updated": "2026-09-30T11:43:05+08:00",
+  "updated": "2026-09-30T16:02:54+08:00",
   "source": "由 BOT「汇差查询 快照」生成",
   "config": {
     "GHS": {
+      "★_卖出币种": "GHS  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "USD",
@@ -30,6 +61,7 @@
       ]
     },
     "ZAR": {
+      "★_卖出币种": "ZAR  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "EUR",
@@ -79,6 +111,7 @@
       ]
     },
     "AED": {
+      "★_卖出币种": "AED  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "EUR",
@@ -128,6 +161,7 @@
       ]
     },
     "CHF": {
+      "★_卖出币种": "CHF  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "USD",
@@ -162,6 +196,7 @@
       ]
     },
     "NOK": {
+      "★_卖出币种": "NOK  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "USD",
@@ -196,6 +231,7 @@
       ]
     },
     "DKK": {
+      "★_卖出币种": "DKK  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "USD",
@@ -230,6 +266,7 @@
       ]
     },
     "SEK": {
+      "★_卖出币种": "SEK  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "USD",
@@ -264,6 +301,7 @@
       ]
     },
     "NZD": {
+      "★_卖出币种": "NZD  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "USD",
@@ -298,6 +336,7 @@
       ]
     },
     "NGN": {
+      "★_卖出币种": "NGN  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "USD",
@@ -332,6 +371,7 @@
       ]
     },
     "VND": {
+      "★_卖出币种": "VND  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "USD",
@@ -366,6 +406,7 @@
       ]
     },
     "HUF": {
+      "★_卖出币种": "HUF  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "EUR",
@@ -420,6 +461,7 @@
       ]
     },
     "PLN": {
+      "★_卖出币种": "PLN  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "EUR",
@@ -469,6 +511,7 @@
       ]
     },
     "CZK": {
+      "★_卖出币种": "CZK  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "EUR",
@@ -518,6 +561,7 @@
       ]
     },
     "RON": {
+      "★_卖出币种": "RON  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "EUR",
@@ -567,6 +611,7 @@
       ]
     },
     "MYR": {
+      "★_卖出币种": "MYR  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "USD",
@@ -606,6 +651,7 @@
       ]
     },
     "IDR": {
+      "★_卖出币种": "IDR  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "USD",
@@ -645,6 +691,7 @@
       ]
     },
     "THB": {
+      "★_卖出币种": "THB  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "EUR",
@@ -704,6 +751,7 @@
       ]
     },
     "PHP": {
+      "★_卖出币种": "PHP  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "USD",
@@ -743,6 +791,7 @@
       ]
     },
     "CNH": {
+      "★_卖出币种": "CNH  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "HKD",
@@ -912,6 +961,7 @@
       ]
     },
     "SGD": {
+      "★_卖出币种": "SGD  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "USD",
@@ -946,6 +996,7 @@
       ]
     },
     "JPY": {
+      "★_卖出币种": "JPY  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "USD",
@@ -980,6 +1031,7 @@
       ]
     },
     "CAD": {
+      "★_卖出币种": "CAD  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "HKD",
@@ -1029,6 +1081,7 @@
       ]
     },
     "AUD": {
+      "★_卖出币种": "AUD  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "SGD",
@@ -1083,6 +1136,7 @@
       ]
     },
     "GBP": {
+      "★_卖出币种": "GBP  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "HKD",
@@ -1132,6 +1186,7 @@
       ]
     },
     "HKD": {
+      "★_卖出币种": "HKD  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "USD",
@@ -1171,6 +1226,7 @@
       ]
     },
     "EUR": {
+      "★_卖出币种": "EUR  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "RON",
@@ -1325,6 +1381,7 @@
       ]
     },
     "USD": {
+      "★_卖出币种": "USD  ← 改本块下面 items 里的 value",
       "items": [
         {
           "buy_cur": "HKD",
