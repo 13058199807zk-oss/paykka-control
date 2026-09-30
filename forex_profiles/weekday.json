@@ -1303,7 +1303,7 @@
             {
               "provider": "BOC",
               "type": "BY_DIFF",
-              "value": -0.003
+              "value": 0.0
             }
           ]
         },
