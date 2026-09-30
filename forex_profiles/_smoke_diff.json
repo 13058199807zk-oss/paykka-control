@@ -1,0 +1,1643 @@
+{
+  "name": "冒烟·差异预览（临时）",
+  "aliases": [
+    "_smoke_diff"
+  ],
+  "note": "临时冒烟：含 2 处差异，勿提交",
+  "updated": "2026-09-30T11:50:00+08:00",
+  "config": {
+    "GHS": {
+      "items": [
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "FW",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "FW",
+              "type": "BY_RATIO",
+              "value": -0.0015
+            }
+          ]
+        }
+      ]
+    },
+    "ZAR": {
+      "items": [
+        {
+          "buy_cur": "EUR",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.002
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.002
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.002
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        }
+      ]
+    },
+    "AED": {
+      "items": [
+        {
+          "buy_cur": "EUR",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.001
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.002
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.002
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        }
+      ]
+    },
+    "CHF": {
+      "items": [
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.002
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.002
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_RATIO",
+              "value": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    "NOK": {
+      "items": [
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.002
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_RATIO",
+              "value": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    "DKK": {
+      "items": [
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.002
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_RATIO",
+              "value": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    "SEK": {
+      "items": [
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.002
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_RATIO",
+              "value": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    "NZD": {
+      "items": [
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_DIFF",
+            "value": -0.001
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_DIFF",
+              "value": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    "NGN": {
+      "items": [
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "WISE",
+            "type": "BY_RATIO",
+            "value": 0.006
+          },
+          "configs": [
+            {
+              "provider": "XT",
+              "type": "BY_RATIO",
+              "value": -0.004
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "WISE",
+            "type": "BY_RATIO",
+            "value": 0.006
+          },
+          "configs": [
+            {
+              "provider": "XT",
+              "type": "BY_RATIO",
+              "value": -0.004
+            }
+          ]
+        }
+      ]
+    },
+    "VND": {
+      "items": [
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "MDAQ",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "XT",
+              "type": "BY_RATIO",
+              "value": 0.0
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "MDAQ",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "XT",
+              "type": "BY_RATIO",
+              "value": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    "HUF": {
+      "items": [
+        {
+          "buy_cur": "EUR",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_DIFF",
+              "value": 0.0
+            },
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        }
+      ]
+    },
+    "PLN": {
+      "items": [
+        {
+          "buy_cur": "EUR",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        }
+      ]
+    },
+    "CZK": {
+      "items": [
+        {
+          "buy_cur": "EUR",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        }
+      ]
+    },
+    "RON": {
+      "items": [
+        {
+          "buy_cur": "EUR",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        }
+      ]
+    },
+    "MYR": {
+      "items": [
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "MDAQ",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "MDAQ",
+              "type": "BY_RATIO",
+              "value": -0.001
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "MDAQ",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_RATIO",
+              "value": 0.0
+            },
+            {
+              "provider": "MDAQ",
+              "type": "BY_RATIO",
+              "value": -0.001
+            }
+          ]
+        }
+      ]
+    },
+    "IDR": {
+      "items": [
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "MDAQ",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "MDAQ",
+              "type": "BY_RATIO",
+              "value": -0.001
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "MDAQ",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_RATIO",
+              "value": 0.0
+            },
+            {
+              "provider": "MDAQ",
+              "type": "BY_RATIO",
+              "value": -0.001
+            }
+          ]
+        }
+      ]
+    },
+    "THB": {
+      "items": [
+        {
+          "buy_cur": "EUR",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.002
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.002
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "MDAQ",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_RATIO",
+              "value": 0.0
+            },
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            },
+            {
+              "provider": "MDAQ",
+              "type": "BY_RATIO",
+              "value": -0.001
+            }
+          ]
+        }
+      ]
+    },
+    "PHP": {
+      "items": [
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "MDAQ",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "MDAQ",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "MDAQ",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_RATIO",
+              "value": 0.0
+            },
+            {
+              "provider": "MDAQ",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        }
+      ]
+    },
+    "CNH": {
+      "items": [
+        {
+          "buy_cur": "HKD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_RATIO",
+              "value": 0.0
+            }
+          ]
+        },
+        {
+          "buy_cur": "AUD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_RATIO",
+              "value": 0.0
+            }
+          ]
+        },
+        {
+          "buy_cur": "AED",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.002
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "SGD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_RATIO",
+              "value": 0.0
+            }
+          ]
+        },
+        {
+          "buy_cur": "JPY",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_RATIO",
+              "value": 0.0
+            }
+          ]
+        },
+        {
+          "buy_cur": "EUR",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_RATIO",
+              "value": 0.0
+            }
+          ]
+        },
+        {
+          "buy_cur": "GBP",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_RATIO",
+              "value": 0.0
+            }
+          ]
+        },
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_RATIO",
+              "value": 0.0
+            }
+          ]
+        },
+        {
+          "buy_cur": "CAD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_RATIO",
+              "value": 0.0
+            }
+          ]
+        },
+        {
+          "buy_cur": "ZAR",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.002
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "THB",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.002
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        }
+      ]
+    },
+    "SGD": {
+      "items": [
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "YB",
+            "type": "BY_DIFF",
+            "value": -0.001
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_DIFF",
+              "value": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    "JPY": {
+      "items": [
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_RATIO",
+              "value": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    "CAD": {
+      "items": [
+        {
+          "buy_cur": "HKD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_DIFF",
+            "value": -0.001
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_DIFF",
+              "value": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    "AUD": {
+      "items": [
+        {
+          "buy_cur": "SGD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_DIFF",
+            "value": -0.001
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_DIFF",
+              "value": 0.0
+            },
+            {
+              "provider": "YB",
+              "type": "BY_DIFF",
+              "value": -0.002
+            }
+          ]
+        }
+      ]
+    },
+    "GBP": {
+      "items": [
+        {
+          "buy_cur": "HKD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "YB",
+            "type": "BY_DIFF",
+            "value": -0.001
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_RATIO",
+              "value": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    "HKD": {
+      "items": [
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "MDAQ_FX_SPOT",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_RATIO",
+              "value": 0.0
+            },
+            {
+              "provider": "YB",
+              "type": "BY_RATIO",
+              "value": -0.0005
+            }
+          ]
+        }
+      ]
+    },
+    "EUR": {
+      "items": [
+        {
+          "buy_cur": "RON",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "HKD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "AED",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.002
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "PLN",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "CZK",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "USD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "HUF",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "ZAR",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.002
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "YB",
+            "type": "BY_DIFF",
+            "value": -0.001
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_DIFF",
+              "value": -0.003
+            }
+          ]
+        },
+        {
+          "buy_cur": "THB",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.002
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        }
+      ]
+    },
+    "USD": {
+      "items": [
+        {
+          "buy_cur": "HKD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "AED",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.002
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "EUR",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "MYR",
+          "cost": {
+            "provider": "MDAQ",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "MDAQ",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "CAD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "ZAR",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.002
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "VND",
+          "cost": {
+            "provider": "MDAQ",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "MDAQ",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "THB",
+          "cost": {
+            "provider": "MDAQ",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "MDAQ",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "RON",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "AUD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "SGD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "JPY",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "PLN",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "GHS",
+          "cost": {
+            "provider": "FW",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "FW",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "NGN",
+          "cost": {
+            "provider": "WISE",
+            "type": "BY_RATIO",
+            "value": 0.016
+          },
+          "configs": [
+            {
+              "provider": "XT",
+              "type": "BY_RATIO",
+              "value": -0.001
+            }
+          ]
+        },
+        {
+          "buy_cur": "GBP",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "CZK",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "IDR",
+          "cost": {
+            "provider": "MDAQ",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "MDAQ",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "HUF",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "PHP",
+          "cost": {
+            "provider": "MDAQ",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "MDAQ",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "CNH",
+          "cost": {
+            "provider": "YB",
+            "type": "BY_DIFF",
+            "value": -0.002
+          },
+          "configs": [
+            {
+              "provider": "BOC",
+              "type": "BY_DIFF",
+              "value": 0.0
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
