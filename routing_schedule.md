@@ -147,6 +147,46 @@ SCHEDULES =
         "days": ["MON"],
         "enabled": True,
         "send_notification": True
+    },
+    {
+        "id": "friday_night_switch_USDHKD",
+        "description": "USDHKD周五晚上切换到YB",
+        "currency_pair": {"sell": "USD", "buy": "HKD"},
+        "target_rule": "RULE_YB",
+        "time": "22:30",
+        "days": ["FRI"],
+        "enabled": True,
+        "send_notification": True
+    },
+    {
+        "id": "monday_morning_switch_USDHKD",
+        "description": "USDHKD周一早上切换到CC",
+        "currency_pair": {"sell": "USD", "buy": "HKD"},
+        "target_rule": "RULE_CC",
+        "time": "09:05",
+        "days": ["MON"],
+        "enabled": True,
+        "send_notification": True
+    },
+    {
+        "id": "friday_night_switch_EURHKD",
+        "description": "EURHKD周五晚上切换到YB",
+        "currency_pair": {"sell": "EUR", "buy": "HKD"},
+        "target_rule": "RULE_YB",
+        "time": "22:30",
+        "days": ["FRI"],
+        "enabled": True,
+        "send_notification": True
+    },
+    {
+        "id": "monday_morning_switch_EURHKD",
+        "description": "EURHKD周一早上切换到CC",
+        "currency_pair": {"sell": "EUR", "buy": "HKD"},
+        "target_rule": "RULE_CC",
+        "time": "09:05",
+        "days": ["MON"],
+        "enabled": True,
+        "send_notification": True
     }
 ]
 ```
