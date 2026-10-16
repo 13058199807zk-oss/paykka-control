@@ -349,7 +349,7 @@
             {
               "provider": "XT",
               "type": "BY_RATIO",
-              "value": -0.004
+              "value": -0.002
             }
           ]
         },
@@ -364,7 +364,7 @@
             {
               "provider": "XT",
               "type": "BY_RATIO",
-              "value": -0.004
+              "value": -0.002
             }
           ]
         }
