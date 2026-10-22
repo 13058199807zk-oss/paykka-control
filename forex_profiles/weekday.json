@@ -1,5 +1,5 @@
 {
-  "★_阅读说明": "本文件含【全部 27 个卖出币种 / 99 币对】（平日报价方案），是日常基准。改值只改 items[].cost.value 与 items[].configs[].value；不要增删币对、不要改 buy_cur、不要改键名。定位每一块：搜索 ★_卖出币种（全文共 27 处）。",
+  "★_阅读说明": "本文件含【全部 27 个卖出币种 / 105 币对】（平日报价方案），是日常基准。改值只改 items[].cost.value 与 items[].configs[].value；★ 线上新增买入方向时必须同步补本文件对应币对，否则 `汇差方案切换` / 假期切换会因「币对集合不一致」直接 ERR。定位每一块：搜索 ★_卖出币种（全文共 27 处）。",
   "★_包含卖出币种": [
     "GHS",
     "ZAR",
@@ -36,8 +36,8 @@
     "标准",
     "weekday"
   ],
-  "note": "基准方案：取自 2026-09-30 线上汇差配置（27 卖出币种 / 99 币对）。切换此方案应显示「完全一致、无需提交」。",
-  "updated": "2026-09-30T16:02:54+08:00",
+  "note": "基准方案：取自 2026-10-22 16:09 线上汇差配置（27 卖出币种 / 105 币对）。切换此方案应显示「完全一致、无需提交」。",
+  "updated": "2026-10-22T16:32:42+08:00",
   "source": "由 BOT「汇差查询 快照」生成",
   "config": {
     "GHS": {
@@ -349,7 +349,7 @@
             {
               "provider": "XT",
               "type": "BY_RATIO",
-              "value": -0.002
+              "value": -0.001
             }
           ]
         },
@@ -364,7 +364,7 @@
             {
               "provider": "XT",
               "type": "BY_RATIO",
-              "value": -0.002
+              "value": -0.001
             }
           ]
         }
@@ -964,6 +964,21 @@
       "★_卖出币种": "SGD  ← 改本块下面 items 里的 value",
       "items": [
         {
+          "buy_cur": "EUR",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
           "buy_cur": "USD",
           "cost": {
             "provider": "CC",
@@ -998,6 +1013,21 @@
     "JPY": {
       "★_卖出币种": "JPY  ← 改本块下面 items 里的 value",
       "items": [
+        {
+          "buy_cur": "EUR",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
         {
           "buy_cur": "USD",
           "cost": {
@@ -1049,6 +1079,21 @@
           ]
         },
         {
+          "buy_cur": "EUR",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
           "buy_cur": "USD",
           "cost": {
             "provider": "CC",
@@ -1085,6 +1130,21 @@
       "items": [
         {
           "buy_cur": "SGD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "EUR",
           "cost": {
             "provider": "CC",
             "type": "BY_RATIO",
@@ -1154,6 +1214,21 @@
           ]
         },
         {
+          "buy_cur": "EUR",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
           "buy_cur": "USD",
           "cost": {
             "provider": "CC",
@@ -1188,6 +1263,21 @@
     "HKD": {
       "★_卖出币种": "HKD  ← 改本块下面 items 里的 value",
       "items": [
+        {
+          "buy_cur": "EUR",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
         {
           "buy_cur": "USD",
           "cost": {
