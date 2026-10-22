@@ -1,5 +1,5 @@
 {
-  "★_阅读说明": "本文件只含 6 个卖出币种（USD / EUR / HKD / GBP / AUD / SGD）。放假前只改这 6 块里 items[].cost.value 与 items[].configs[].value；不要增删币对、不要改 buy_cur、不要改键名。定位每一块：搜索 ★_卖出币种（全文共 6 处）。",
+  "★_阅读说明": "本文件只含 6 个卖出币种（USD / EUR / HKD / GBP / AUD / SGD），共 45 币对。★ 6 块的买入方向必须与线上完全一致（线上新增须同步补），否则 `假期汇差配置` 直接 ERR。放假前只改这 6 块里 items[].cost.value 与 items[].configs[].value。定位每一块：搜索 ★_卖出币种（全文共 6 处）。",
   "★_目标卖出币种": [
     "USD",
     "EUR",
@@ -16,8 +16,8 @@
     "假日",
     "holidays"
   ],
-  "note": "节假日方案（P3）：只含 6 个目标卖出币种 —— USD、EUR、HKD、GBP、AUD、SGD。初始值 = 2026-09-30 线上汇差配置（切换应显示「与线上一致」）；放假前请把这里 6 块的值改成节假日口径，再发「假期汇差配置 <假期结束日>」。",
-  "updated": "2026-09-30T15:46:09+08:00",
+  "note": "节假日方案（P3）：只含 6 个目标卖出币种 —— USD、EUR、HKD、GBP、AUD、SGD。值 = 2026-10-22 线上汇差配置（含 10-22 新增的 EUR 买入方向）；CNH 6 条为节假日收紧口径。放假前请把这里 6 块的值改成节假日口径，再发「假期汇差配置 <假期结束日>」。",
+  "updated": "2026-10-22T16:32:42+08:00",
   "source": "由 BOT「汇差查询 快照」生成（P3 假期版）",
   "config": {
     "USD": {
@@ -499,6 +499,21 @@
       "★_卖出币种": "HKD  ← 改本块下面 items 里的 value",
       "items": [
         {
+          "buy_cur": "EUR",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
           "buy_cur": "USD",
           "cost": {
             "provider": "CC",
@@ -540,6 +555,21 @@
       "items": [
         {
           "buy_cur": "HKD",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
+          "buy_cur": "EUR",
           "cost": {
             "provider": "CC",
             "type": "BY_RATIO",
@@ -604,6 +634,21 @@
           ]
         },
         {
+          "buy_cur": "EUR",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
+        {
           "buy_cur": "USD",
           "cost": {
             "provider": "CC",
@@ -643,6 +688,21 @@
     "SGD": {
       "★_卖出币种": "SGD  ← 改本块下面 items 里的 value",
       "items": [
+        {
+          "buy_cur": "EUR",
+          "cost": {
+            "provider": "CC",
+            "type": "BY_RATIO",
+            "value": -0.0005
+          },
+          "configs": [
+            {
+              "provider": "CC",
+              "type": "BY_RATIO",
+              "value": -0.002
+            }
+          ]
+        },
         {
           "buy_cur": "USD",
           "cost": {
