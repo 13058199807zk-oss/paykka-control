@@ -169,6 +169,26 @@ SCHEDULES =
         "send_notification": True
     },
     {
+        "id": "friday_night_switch_CAD",
+        "description": "CAD周五晚上切换到YB",
+        "currency_pair": {"sell": "CAD", "buy": "CNH"},
+        "target_rule": "RULE_YB",
+        "time": "22:30",
+        "days": ["FRI"],
+        "enabled": True,
+        "send_notification": True
+    },
+    {
+        "id": "monday_morning_switch_CAD",
+        "description": "CAD周一早上切换到CC",
+        "currency_pair": {"sell": "CAD", "buy": "CNH"},
+        "target_rule": "RULE_CC",
+        "time": "09:05",
+        "days": ["MON"],
+        "enabled": True,
+        "send_notification": True
+    },
+    {
         "id": "friday_night_switch_USDHKD",
         "description": "USDHKD周五晚上切换到YB",
         "currency_pair": {"sell": "USD", "buy": "HKD"},
