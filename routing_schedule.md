@@ -79,6 +79,16 @@ SCHEDULES =
         "send_notification": False
     },
     {
+        "id": "midnight_switch_HKD",
+        "description": "HKD工作日凌晨切换到YB",
+        "currency_pair": {"sell": "HKD", "buy": "CNH"},
+        "target_rule": "RULE_YB",
+        "time": "23:50",
+        "days": ["MON", "TUE", "WED", "THU", "FRI"],
+        "enabled": True,
+        "send_notification": False
+    },
+    {
         "id": "friday_night_switch_USD",
         "description": "USD周五晚上切换到YB",
         "currency_pair": {"sell": "USD", "buy": "CNH"},
