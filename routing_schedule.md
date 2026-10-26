@@ -105,7 +105,7 @@ SCHEDULES =
         "target_rule": "RULE_HCE_TOM",
         "time": "09:05",
         "days": ["MON"],
-        "enabled": True,
+        "enabled": False,
         "send_notification": True
     },
     {
