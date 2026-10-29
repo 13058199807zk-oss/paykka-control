@@ -5,7 +5,7 @@ WECHAT_WEBHOOK_URL = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=85c09
 ALERT_THRESHOLDS = {
     "USD/CNH": 450000.0,
     "EUR/CNH": 150000.0,
-    "GBP/CNH": 100000.0
+    "GBP/CNH": 101000.0
 }
 # 3. “处理中”交易超限阈值配置
 PROCESSING_ALERT_THRESHOLDS = {
