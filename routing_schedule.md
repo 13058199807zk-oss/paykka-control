@@ -29,6 +29,16 @@ SCHEDULES =
         "send_notification": True
     },
     {
+        "id": "morning_switch_HKDUSD",
+        "description": "HKDUSD工作日早上切换到OCBC",
+        "currency_pair": {"sell": "HKD", "buy": "USD"},
+        "target_rule": "RULE_OCBC",
+        "time": "08:05",
+        "days": ["MON", "TUE", "WED", "THU", "FRI"],
+        "enabled": True,
+        "send_notification": True
+    },
+    {
         "id": "morning_switch_AUD",
         "description": "AUD工作日早上切换到OCBC",
         "currency_pair": {"sell": "AUD", "buy": "CNH"},
@@ -52,6 +62,16 @@ SCHEDULES =
         "id": "afternoon_switch_HKD",
         "description": "HKD工作日下午切换到HCE_TOM",
         "currency_pair": {"sell": "HKD", "buy": "CNH"},
+        "target_rule": "RULE_HCE_TOM",
+        "time": "15:25",
+        "days": ["MON", "TUE", "WED", "THU", "FRI"],
+        "enabled": True,
+        "send_notification": True
+    },
+    {
+        "id": "afternoon_switch_HKDUSD",
+        "description": "HKDUSD工作日下午切换到HCE_TOM",
+        "currency_pair": {"sell": "HKD", "buy": "USD"},
         "target_rule": "RULE_HCE_TOM",
         "time": "15:25",
         "days": ["MON", "TUE", "WED", "THU", "FRI"],
@@ -89,6 +109,16 @@ SCHEDULES =
         "send_notification": False
     },
     {
+        "id": "midnight_switch_HKDUSD",
+        "description": "HKDUSD工作日凌晨切换到YB",
+        "currency_pair": {"sell": "HKD", "buy": "USD"},
+        "target_rule": "RULE_YB",
+        "time": "23:50",
+        "days": ["MON", "TUE", "WED", "THU", "FRI"],
+        "enabled": True,
+        "send_notification": False
+    },
+    {
         "id": "friday_night_switch_USD",
         "description": "USD周五晚上切换到YB",
         "currency_pair": {"sell": "USD", "buy": "CNH"},
@@ -102,6 +132,16 @@ SCHEDULES =
         "id": "friday_night_switch_HKD",
         "description": "HKD周五晚上切换到YB",
         "currency_pair": {"sell": "HKD", "buy": "CNH"},
+        "target_rule": "RULE_YB",
+        "time": "22:30",
+        "days": ["FRI"],
+        "enabled": True,
+        "send_notification": True
+    },
+    {
+        "id": "friday_night_switch_HKDUSD",
+        "description": "HKDUSD周五晚上切换到YB",
+        "currency_pair": {"sell": "HKD", "buy": "USD"},
         "target_rule": "RULE_YB",
         "time": "22:30",
         "days": ["FRI"],
