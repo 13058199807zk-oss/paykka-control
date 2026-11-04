@@ -45,14 +45,14 @@ SCHEDULES =
         "target_rule": "RULE_OCBC_TOD",
         "time": "08:05",
         "days": ["MON", "TUE", "WED", "THU", "FRI"],
-        "enabled": False,
+        "enabled": True,
         "send_notification": True
     },
     {
         "id": "afternoon_switch_USD",
         "description": "USD工作日下午切换到HCE_TOM",
         "currency_pair": {"sell": "USD", "buy": "CNH"},
-        "target_rule": "RULE_HCE_TOM",
+        "target_rule": "RULE_OCBC_TOM",
         "time": "15:25",
         "days": ["MON", "TUE", "WED", "THU", "FRI"],
         "enabled": True,
@@ -62,7 +62,7 @@ SCHEDULES =
         "id": "afternoon_switch_HKD",
         "description": "HKD工作日下午切换到HCE_TOM",
         "currency_pair": {"sell": "HKD", "buy": "CNH"},
-        "target_rule": "RULE_HCE_TOM",
+        "target_rule": "RULE_OCBC_TOM",
         "time": "15:25",
         "days": ["MON", "TUE", "WED", "THU", "FRI"],
         "enabled": True,
@@ -72,7 +72,7 @@ SCHEDULES =
         "id": "afternoon_switch_HKDUSD",
         "description": "HKDUSD工作日下午切换到HCE_TOM",
         "currency_pair": {"sell": "HKD", "buy": "USD"},
-        "target_rule": "RULE_HCE_TOM",
+        "target_rule": "RULE_OCBC_TOM",
         "time": "15:25",
         "days": ["MON", "TUE", "WED", "THU", "FRI"],
         "enabled": True,
@@ -82,10 +82,10 @@ SCHEDULES =
         "id": "afternoon_switch_AUD",
         "description": "AUD工作日下午切换到YB",
         "currency_pair": {"sell": "AUD", "buy": "CNH"},
-        "target_rule": "RULE_YB",
+        "target_rule": "RULE_OCBC_TOM",
         "time": "15:25",
         "days": ["MON", "TUE", "WED", "THU", "FRI"],
-        "enabled": False,
+        "enabled": True,
         "send_notification": True
     },
     {
@@ -175,7 +175,7 @@ SCHEDULES =
         "target_rule": "RULE_CC",
         "time": "09:05",
         "days": ["MON"],
-        "enabled": True,
+        "enabled": False,
         "send_notification": True
     },
     {
