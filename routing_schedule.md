@@ -282,6 +282,7 @@ SCHEDULES =
 ```
 # 支持的规则列表
 SUPPORTED_RULES = [
+    "RULE_OCBC_TOD",
     "RULE_OCBC_TOM",
     "RULE_OCBC_SPOT",
     "RULE_HCE_TOD",
