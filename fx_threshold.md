@@ -16,7 +16,7 @@ PROCESSING_ALERT_THRESHOLDS = {
 }
 # 4. T+0交易时段配置
 TRADING_HOURS = {
-    "OCBC": {"start": "08:00", "end": "15:00"},
+    "OCBC": {"start": "09:00", "end": "14:00"},
     "YB": {"start": "00:00", "end": "23:59"},
     "MDAQ": {"start": "00:00", "end": "23:59"}
 }
