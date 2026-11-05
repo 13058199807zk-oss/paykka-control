@@ -3,16 +3,16 @@
 WECHAT_WEBHOOK_URL = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=85c09e71-c20c-433e-b663-58f3b392c2d0"
 # 2. “已交割”交易超限阈值配置
 ALERT_THRESHOLDS = {
-    "USD/CNH": 450000.0,
+    "USD/CNH": 1450000.0,
     "EUR/CNH": 150000.0,
     "GBP/CNH": 100000.0
 }
 # 3. “处理中”交易超限阈值配置
 PROCESSING_ALERT_THRESHOLDS = {
-    "USD/CNH": 1050000.0,
+    "USD/CNH": 1550000.0,
     "EUR/CNH": 250000.0,
-    "GBP/CNH": 150000.0,
-    "HKD/CNH": 2550000.0
+    "GBP/CNH": 120000.0,
+    "HKD/CNH": 1550000.0
 }
 # 4. T+0交易时段配置
 TRADING_HOURS = {
