@@ -82,7 +82,7 @@ SCHEDULES =
         "id": "afternoon_switch_AUDCNH",
         "description": "AUDCNH工作日下午切换",
         "currency_pair": {"sell": "AUD", "buy": "CNH"},
-        "target_rule": "RULE_OCBC_TOM",
+        "target_rule": "RULE_YB",
         "time": "15:25",
         "days": ["MON", "TUE", "WED", "THU", "FRI"],
         "enabled": True,
